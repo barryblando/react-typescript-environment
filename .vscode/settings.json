@@ -1,0 +1,40 @@
+{
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "typescript.validate.enable": false,
+  "cSpell.words": [
+    "add",
+    "datepicker",
+    "dev",
+    "devtools",
+    "entrypoints",
+    "expensify",
+    "extension",
+    "flowtype",
+    "prettier",
+    "redux",
+    "scss",
+    "server",
+    "stylelint"
+  ],
+  "files.associations": {
+    "*.js": "javascript",
+    "*.jsx": "javascriptreact",
+    "*.ts": "typescript",
+    "*.tsx": "typescriptreact",
+    ".stylelintrc": "json"
+  },
+  "files.autoSave": "onFocusChange",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "{jsx|js|ts|tsx}"
+  },
+  "eslint.autoFixOnSave": true,
+  "tslint.autoFixOnSave": true,
+  "prettier.disableLanguages": [
+    "js"
+  ],
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+}

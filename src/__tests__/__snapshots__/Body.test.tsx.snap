@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Body Component Test /> should render basic Body Component with an image 1`] = `
+<div
+  className="body"
+>
+  <button
+    className="button"
+    onClick={[Function]}
+    type="button"
+  >
+    <TransitionGroup
+      childFactory={[Function]}
+      className="animWrap"
+      component="div"
+    >
+      <CSSTransition
+        classNames="mainImage"
+        timeout={500}
+      >
+        <img
+          alt="main_img"
+          className="bodyImg"
+          src="../assets/undefined.png"
+        />
+      </CSSTransition>
+    </TransitionGroup>
+  </button>
+</div>
+`;
