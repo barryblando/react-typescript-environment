@@ -5,16 +5,16 @@ import styles from '../styles/index.scss';
 import buttonsStyles from '../styles/button.scss';
 import body from '../styles/body.scss';
 
-// const FIRST_IMAGE_ID = 1;
-// const SECOND_IMAGE_ID = 2;
+const FIRST_IMAGE_ID = 1;
+const SECOND_IMAGE_ID = 2;
 
 export class Body extends PureComponent<IBody, {}> {
   _handleClick = () => {
-    // const { imageToShow, switchImage } = this.props;
-    // if (imageToShow === FIRST_IMAGE_ID) {
-    //   return switchImage(SECOND_IMAGE_ID);
-    // }
-    // return switchImage(FIRST_IMAGE_ID);
+    const { imageToShow, switchImage } = this.props;
+    if (imageToShow === FIRST_IMAGE_ID) {
+      return switchImage ? switchImage(SECOND_IMAGE_ID) : {};
+    }
+    return switchImage ? switchImage(FIRST_IMAGE_ID) : {};
   }
 
   _getImage = () => {
