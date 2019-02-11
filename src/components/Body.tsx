@@ -12,9 +12,9 @@ export class Body extends PureComponent<IBody, {}> {
   _handleClick = () => {
     const { imageToShow, switchImage } = this.props;
     if (imageToShow === FIRST_IMAGE_ID) {
-      return switchImage ? switchImage(SECOND_IMAGE_ID) : {};
+      return switchImage(SECOND_IMAGE_ID);
     }
-    return switchImage ? switchImage(FIRST_IMAGE_ID) : {};
+    return switchImage(FIRST_IMAGE_ID);
   }
 
   _getImage = () => {
